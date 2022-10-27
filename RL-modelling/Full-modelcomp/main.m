@@ -3,6 +3,9 @@ clear;
 rng(44501)
 
 load('../Mydata_Orderblk.mat')
+addpath('../RL-modeling')
+
+
 numSub  = size(Mydata_Orderblk,1);
 f       = fieldnames(Mydata_Orderblk{1,1});
 maxB    = 20;
